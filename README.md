@@ -20,7 +20,7 @@ O objetivo deste site é melhorar minhas habilidades em Javascript. Ele foi dese
 
 Visite o site aqui:
 
-
+https://ricardo2357.github.io/Gerador-de-Citacoes/
 
 ## Estrutura do Projeto
 
