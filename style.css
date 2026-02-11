@@ -34,7 +34,7 @@ main {
     display: flex;          
     justify-content: center; 
     align-items: center;  
-    height: 517px;
+    min-height: calc(100vh - (84 + 40));
     background-color:  #fffefef5;
 }
 
@@ -44,21 +44,36 @@ main {
     align-items: center;
 }
 
+#quote-text {
+    position: relative;
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', serif; 
+    font-style: italic;
+    color: #2c2c2c;
+    font-size: 19px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
 #new-quote-button {
     padding: 8px;
     font-size: 28px;
-    color: #121212;
-    background-color: #85EC78D8;
-    border: 2px solid #1E8511D8;
+    color: #FFFFFF;
+    background-color: #A0522D;
+    border: 2px solid #8B4513;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     border-radius: 13px;
 }
 
 #new-quote-button:hover {
-    background-color: #80e073d8;
-    border: 2px solid #1b770fd8;
-    transform: scale(1.1);
+    background-color: #8B4513;
+    border: 2px solid #5D2E0D;
+    transform: scale(1.05);
+}
+
+#new-quote-button:active {
+    transform: scale(0.95);
 }
 
 footer {
