@@ -25,10 +25,10 @@ button.addEventListener('click', async function() {
         duration: 2000,
         close: false,
         gravity: "top",
-        position: "left",
+        position: "right",
         stopOnFocus: true,
         style: { 
-            background: "#ADD8E6",
+            background: "#F2C438",
         }
     }).showToast();
 
