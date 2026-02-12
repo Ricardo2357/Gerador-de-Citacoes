@@ -3,7 +3,7 @@
 Este projeto consiste em um Gerenciador de Citações feito atravéz de HTML5, CSS3 e JavaScript. O projeto utiliza animações, por meio da biblioteca externa GSAP, e um sistema de notificações, por meio da biblioteca externa Toastify.js, para simular requisições a um servidor.
 
 <p align="left">
-  <img src="images/preview-gerador-de-citacoes.png" alt="Preview do Site Gerador de Citações" width="600">
+  <img src="images/preview-gerador-de-citações.png" alt="Preview do Site Gerador de Citações" width="600">
 </p>
 
 ## Sobre o Projeto
